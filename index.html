@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Buddy</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>📘 Study Buddy</h1>
+  <form id="goalForm">
+    <input type="text" id="title" placeholder="Enter goal" required />
+    <select id="type">
+      <option value="daily">Daily</option>
+      <option value="weekly">Weekly</option>
+    </select>
+    <button type="submit">Add Goal</button>
+  </form>
+
+  <h2>Your Goals</h2>
+  <ul id="goalList"></ul>
+
+  <h2>Progress</h2>
+  <p id="progressText"></p>
+  <script src="/static/script.js"></script>
+</body>
+</html>
